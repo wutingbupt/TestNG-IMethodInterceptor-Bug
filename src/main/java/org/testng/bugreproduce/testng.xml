@@ -1,0 +1,14 @@
+<suite name="Suite" configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="org.testng.bugreproduce.MyInceptor" />
+	</listeners>
+
+	<test name="Reproduce bug">
+		<classes>
+			<class name="org.testng.bugreproduce.TestMethod"></class>
+		</classes>
+	</test>
+</suite>
+
+
+
